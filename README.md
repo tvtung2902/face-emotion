@@ -4,7 +4,7 @@ This project implements a **Facial Expression Recognition** pipeline using **Res
 
 ## Demo
 
-## 📁 Dataset Format
+## Dataset Format
 
 The dataset is described using a file named `label.lst`. Each line in `label.lst` represents one labeled face in an image with the following format:
 
@@ -16,7 +16,7 @@ The dataset is described using a file named `label.lst`. Each line in `label.lst
 - `0.98`: Confidence score of face detection
 - `3`: Expression label (see below)
 
-## 😊 Expression Labels
+## Expression Labels
 
 Each label corresponds to a facial expression:
 
@@ -30,7 +30,7 @@ Each label corresponds to a facial expression:
 | 5     | Surprise  |
 | 6     | Neutral   |
 
-## 🧠 Pipeline Overview
+## Pipeline Overview
 
 1. **Face Detection**:  
    - Detect faces in input images (can use MTCNN, RetinaFace, or any preferred detector).
@@ -41,7 +41,7 @@ Each label corresponds to a facial expression:
    - Input: cropped face image  
    - Output: predicted emotion label
 
-## 🛠️ Training
+## Training
 
 To train the model:
 
@@ -50,12 +50,12 @@ To train the model:
 3. Normalize images and resize them to match ResNet input size (e.g., 224x224).
 4. Train the ResNet model using cross-entropy loss and appropriate optimizer.
 
-## 🧪 Evaluation
+## Evaluation
 
 - Accuracy and confusion matrix are used to evaluate model performance.
 - Optional: Perform evaluation per expression class.
 
-## 🔗 Citation
+## Citation
 
 If you use this work, please cite the original paper:
 
