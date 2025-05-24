@@ -1,4 +1,4 @@
-# Facial Expression Recognition using ResNet
+# FaceEmotionNet: Deep Learning for Facial Expression Analysis
 
 This project implements a **Facial Expression Recognition** pipeline using **ResNet**. The pipeline includes **face detection** followed by **expression classification** into seven emotion categories.
 
