@@ -4,6 +4,11 @@ This project implements a **Facial Expression Recognition** pipeline using **Res
 
 ## Demo
 
+| Input                  | Predict                         |
+|------------------------|---------------------------------|
+|![](img-test/me.jpg)    | ![](demo/image.png)             |
+
+
 ## Dataset Format
 
 The dataset is described using a file named `label.lst`. Each line in `label.lst` represents one labeled face in an image with the following format:
