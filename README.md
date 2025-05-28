@@ -4,9 +4,16 @@ This project implements a **Facial Expression Recognition** pipeline using **Res
 
 ## Demo
 
-| Input                  | Predict                         |
-|------------------------|---------------------------------|
-|![](img-test/me.jpg)    | ![](demo/image.png)             |
+<table>
+<tr>
+  <th>Input</th>
+  <th>Predict</th>
+</tr>
+<tr>
+  <td><img src="img-test/me.jpg" width="300"/></td>
+  <td><img src="demo/image.png" width="300"/></td>
+</tr>
+</table>
 
 
 ## Dataset Format
