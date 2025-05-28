@@ -10,8 +10,8 @@ This project implements a **Facial Expression Recognition** pipeline using **Res
   <th>Predict</th>
 </tr>
 <tr>
-  <td><img src="img-test/me.jpg" width="300"/></td>
-  <td><img src="demo/image.png" width="300"/></td>
+  <td><img src="img-test/me.jpg" width="400"/></td>
+  <td><img src="demo/image.png" width="400"/></td>
 </tr>
 </table>
 
