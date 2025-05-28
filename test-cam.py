@@ -21,7 +21,7 @@ model.load_state_dict(torch.load(model_checkpoint, map_location=device)['model']
 model.to(device)
 model.eval()
 
-categories = ["tức giận", "ghê tởm", "sợ hãi", "vui vẻ", "buồn bã", "ngạc nhiên", "bình thường"]
+categories = ["angry", "disgust", "fear", "happy", "sad", "surprise", "neutral"]
 
 def predict_image(img):
     transform = transforms.Compose([

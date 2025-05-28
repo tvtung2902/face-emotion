@@ -3,7 +3,7 @@ from torch.utils.data import Dataset
 import os
 from PIL import Image
 
-CLASS_NAMES_VI = ["tức giận", "ghê tởm", "sợ hãi", "vui vẻ", "buồn bã", "ngạc nhiên", "bình thường"]
+CLASS_NAMES_VI = ["angry", "disgust", "fear", "happy", "sad", "surprise", "neutral"]
 
 class EmotionDataSet(Dataset):
     def __init__(self, image_dir, label_file, mode='train', transform=None,
