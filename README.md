@@ -49,7 +49,7 @@ Each label corresponds to a facial expression:
    - Crop the detected face regions based on bounding box info.
 
 2. **Expression Classification**:  
-   - Use a fine-tuned **ResNet** model (e.g., ResNet-18 or ResNet-50) to classify the cropped face into one of the 7 emotions.
+   - Use a fine-tuned **ResNet** model (ResNet-50) to classify the cropped face into one of the 7 emotions.
    - Input: cropped face image  
    - Output: predicted emotion label
 
